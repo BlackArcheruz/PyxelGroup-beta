@@ -1,4 +1,3 @@
-
 const Showcase = () => {
     return (
         <div className="showcase">

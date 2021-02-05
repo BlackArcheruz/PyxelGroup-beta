@@ -54,6 +54,16 @@
 .btn-outline{
   font-weight: bold;
 }
+.btn-light:hover{
+  background-color: #333333;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-outline:hover{
+  background-color: #fff;
+  color: #333333;
+  cursor: pointer;
+}
 
 
 /* Menu Styling */
