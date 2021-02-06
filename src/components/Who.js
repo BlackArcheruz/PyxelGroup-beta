@@ -5,7 +5,7 @@ const Who = () => {
         <div className="who showcase-container">
              
             <img src={office} alt="Our Office" width="512px"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi soluta, neque veritatis voluptas dicta consequuntur aut magnam, in numquam mollitia, delectus iusto culpa sapiente at. Nobis perspiciatis at odio! Et deserunt expedita molestias voluptatum obcaecati, reiciendis fuga alias illo soluta quis dolorum accusamus nesciunt libero temporibus! Non, explicabo, dolorem ea animi cum culpa quasi sed corporis voluptatibus magnam minus assumenda sequi magni harum modi in voluptates consequatur consequuntur porro debitis est eaque. Corrupti quaerat, exercitationem perferendis ea nihil mollitia dolor sapiente nam atque eos nostrum dicta at sit repudiandae necessitatibus rem labore totam quas deleniti quisquam earum cupiditate consequuntur. Repellendus.</p>
+            <p>We produce the best products from all over the world, develop it and most importantly in a great UI design. We also have services for Uzbekistan, CIS and European countries. Our main goal is to provide our customers with a wide range of services and implement them. We are developing high-end websites, mobile applications and chatbots which will stand out among your competitors. We are designing a unique UI with the best user experience, making your clients enjoy your service. We are analyzing your existing application's performance, security, reliability and UX, proposing ways to improve. Turning your brilliant ideas into technical documentation for your new awesome product in PyxelGroup Company !</p>
             <button className="btn btn-outline">Read More</button>
         </div>
     )

@@ -73,6 +73,7 @@ a{
   background-repeat: no-repeat;
   background-position: center;
   background-color: #333333;
+  background-blend-mode:difference;
 }
 .btn{
   padding: 15px 20px;
@@ -114,8 +115,8 @@ a{
   display: inline;
   width: 50%;
   float: left;
-  padding: 0.8rem;
-  font-size: 17px;
+  padding: 0.6rem;
+  font-size: 18px;
 }
 .who img{
   border-radius: 25px;
@@ -123,6 +124,31 @@ a{
   width: 50%;
   float: left;
   height: 100%;
+}
+.plus{
+  color: #ed1b24;
+  font-size: 25px;
+  padding: 14px 5px;
+}
+#why-us{
+  text-align: center;
+  margin: 1.5rem;
+  background-color: #333;
+}
+#why-us p{
+  font-size: 18px;
+  padding: 0.5rem;
+}
+.box{
+  display: flex;
+  background-color: #222;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Animation styling */
 @keyframes nav{

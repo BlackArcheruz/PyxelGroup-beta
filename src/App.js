@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Showcase from './components/Showcase';
 import Who from './components/Who';
+import Why from './components/Why';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
               <Showcase/>
             </div>
             <Who/>
+            <Why/>
     </div>
   );
 }
