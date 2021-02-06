@@ -3,12 +3,15 @@ import Menu from './Menu';
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <div>
+            <nav className="navbar">
             <ul>
-            <li><img src={logo} alt="" style={{width: '45px'}}/>yxelGroup</li>
+            <li><a href="/"><img src={logo} alt="" style={{width: '45px'}}/>yxelGroup</a></li>
             </ul>
-                    <Menu/>
+
         </nav>
+        <Menu/>
+        </div>
     )
 }
 

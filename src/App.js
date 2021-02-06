@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Showcase from './components/Showcase';
+import Who from './components/Who';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
             <div className="showcase-container">
               <Showcase/>
             </div>
+            <Who/>
     </div>
   );
 }
