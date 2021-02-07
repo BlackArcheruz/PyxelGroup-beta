@@ -10,7 +10,7 @@ const handleSubmit = (e)=>{
 } 
 const onClick = ()=>{
     if(!re.test(text)){
-        setMsg('Please check your email !');
+        setMsg('Please check your email address !');
     }else{
         setMsg('Thank you !');
     }

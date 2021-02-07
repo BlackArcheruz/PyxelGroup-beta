@@ -3,6 +3,7 @@ import Showcase from './components/Showcase';
 import Who from './components/Who';
 import Why from './components/Why';
 import GetInTouch from './components/GetInTouch';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Who/>
             <Why/>
             <GetInTouch/>
+            <Footer/>
     </div>
   );
 }

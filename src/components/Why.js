@@ -1,6 +1,13 @@
+import {useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 const Why = () => {
+    useEffect(()=>{
+        AOS.init({duration: 1000});
+    },[])
     return (
-        <div id="why-us">
+        <div data-aos="fade-up" id="why-us">
            <h1><span className="plus">+</span>WHY US</h1> 
            <p>The new Company in IT industry. We can help to make amazing web sites for your awesome projects.</p>
            <div className="box">
