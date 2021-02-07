@@ -1,24 +1,31 @@
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Showcase from './components/Showcase';
-import Who from './components/Who';
-import Why from './components/Why';
-import GetInTouch from './components/GetInTouch';
+import Home from './components/Home';
+import Services from './components/Services';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
+    <Router>
     <div>
           <div className="container">
             <Navbar/>
             </div> 
-            <div className="showcase-container">
-              <Showcase/>
-            </div>
-            <Who/>
-            <Why/>
-            <GetInTouch/>
+            <Switch>
+              <Route exact path='/'>
+                <Home/>
+              </Route>
+              <Route path='/services'>
+                <Services/>
+              </Route>
+              <Route path='/contact'>
+                <Contact/>
+              </Route>
+            </Switch>
             <Footer/>
     </div>
+    </Router>
   );
 }
 

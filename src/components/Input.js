@@ -18,7 +18,7 @@ const onClick = ()=>{
 
     return (
         <form className="con-input" onSubmit={handleSubmit}>
-            <input type="email" placeholder="VERIFY YOUR EMAIL" onChange={(e)=>setText(e.target.value)} className="email" />
+            <input type="email" placeholder="YOUR EMAIL" onChange={(e)=>setText(e.target.value)} className="email" />
             <input type="submit" value="SEND" className="btn btn-outline input" onClick={onClick}/>
             <h1>{msg}</h1>
         </form>
