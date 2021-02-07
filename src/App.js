@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Showcase from './components/Showcase';
 import Who from './components/Who';
 import Why from './components/Why';
+import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             </div>
             <Who/>
             <Why/>
+            <GetInTouch/>
     </div>
   );
 }

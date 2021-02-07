@@ -128,7 +128,7 @@ a{
 .plus{
   color: #ed1b24;
   font-size: 25px;
-  padding: 14px 5px;
+  padding: 14px 0px;
 }
 #why-us{
   text-align: center;
@@ -149,6 +149,49 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.get-in-touch{
+  background-color: #333;
+  padding: 2rem 1rem;
+}
+.g-i-t-container{
+  width: 60%;
+  margin: auto;
+}
+.get-in-touch h2{
+  margin: 20px 0;
+  border-bottom: 2px solid #ed1b24;
+  width: 50%;
+}
+.con-input{
+  padding: 20px 0;
+}
+.email{
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border: 3px solid #ed1b24;
+  border-radius: 25px;
+  width: 100%;
+  outline: none;
+  margin: 15px 0px;
+  padding: 1rem 1rem;
+}
+.email::placeholder{
+  color: #fff;
+  font-size: larger;
+  font-weight: bold;
+}
+.email:focus{
+  border: 3px solid #c5030c;
+  transition: ease 1s border;
+}
+.input{
+  margin: 10px 0;
+}
+.email:active{
+  color: #fff;
+  background-color: #333;
 }
 /* Animation styling */
 @keyframes nav{
