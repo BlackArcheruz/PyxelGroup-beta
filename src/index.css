@@ -204,31 +204,6 @@ footer{
   padding: 1.5rem 0 0.5rem 0;
   box-shadow: 5px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-footer ul {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
-footer ul li {
-  font-weight: bold;
-}
-footer ul li a{
-  color: #d8d8d8;
-}
-footer ul li a:hover{
-  color: #fff;
-  transition: ease .3s color;
-}
-footer ul li i{
-  color: #d8d8d8;
-}
-footer ul li i:hover{
-  color: #fff;
-  transition: ease .3s color;
-}
 .services{
   height: 100%;
 }
