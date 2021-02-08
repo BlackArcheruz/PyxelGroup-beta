@@ -23,7 +23,7 @@ const Contact = () => {
     },[])
     return (
         <div className="showcase-container">
-            <form className="contact" onSubmit={handleSubmit}>
+            <form className="contact" onSubmit={handleSubmit} action="mail">
             <h1>Contact</h1>
             <label>Your Name:</label>
             <input type="text" placeholder="John Doe" className="email" onChange={(e)=>setText(e.target.value)}/>
@@ -32,6 +32,7 @@ const Contact = () => {
             <label>What are you interested in?</label>
             <textarea placeholder="What is your Idea, tell us and we make it alive !" className="email textarea"></textarea>
             <input type="submit" value="SUBMIT" className="btn btn-outline input cont-btn" onClick={onClick}/>
+            <div className="clear"></div>
             <h1>{msg}</h1>
         </form>
         </div>

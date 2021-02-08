@@ -33,7 +33,7 @@ a{
   display: flex;
   padding: 1rem;
   justify-items: right;
-  font-size: xx-large;
+  font-size: 25px;
   font-weight: bold;
 }
 .menu ul li a{
@@ -46,9 +46,9 @@ a{
   transition: ease .3s color;
 }
 .navbar ul li{
-  font-size: xx-large;
   font-weight: bold;
   list-style: none;
+  font-size: 25px;
 }
 .navbar ul li:hover{
   animation-name: nav;
@@ -201,8 +201,11 @@ a{
 }
 footer{
   background-color: #222;
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 1.5rem;
   box-shadow: 5px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
 }
 .services{
   height: 100%;
@@ -242,6 +245,19 @@ footer{
   display: block;
   margin: 30px 0;
 }
+.hamburger{
+  display: none;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.hamburger:hover{
+  cursor: pointer;
+}
+.clear{
+  padding: 13px;
+}
 
 /* Animation styling */
 @keyframes nav{
@@ -275,14 +291,6 @@ footer{
   .who img{
     width: 100%;
   }
-  footer ul{
-    flex-direction: column;
-    align-items: center;
-  }
-  footer ul li a{
-    font-size: xx-large;
-    text-decoration: underline;
-  }
 }
 @media (min-width:1024px) and (max-width: 1366px){
   .showcase-container{
@@ -296,14 +304,6 @@ footer{
   .who img{
     width: 100%;
   }
-  footer ul{
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-  }
-  footer ul li{
-    font-size: x-large;
-  }
 }
 /* Mobile phone styling */
 @media (min-width:320px) and (max-width: 480px){
@@ -311,6 +311,15 @@ footer{
     width: 100%; 
     border-bottom: 1px solid #fff;
     padding: 25px;
+  }
+  .menu{
+    display: none;
+  }
+  .menu-2{
+    display: flex;
+  }
+  img{
+    width: 45px;
   }
   .menu ul{
     flex-direction: column;
@@ -337,14 +346,6 @@ footer{
   .email{
     width: 90%;
   }
-  footer ul{
-    flex-direction: column;
-    align-items: center;
-  }
-  footer ul li a{
-    font-size: xx-large;
-    text-decoration: underline;
-  }
   .box-1{
     flex-direction: column;
     align-items: center;
@@ -359,6 +360,14 @@ footer{
     width: 100%; 
     border-bottom: 1px solid #fff;
     padding: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .hamburger{
+    display: inline;
+  }
+  img{
+    width: 45px;
   }
   .menu ul{
     flex-direction: column;
@@ -366,6 +375,7 @@ footer{
   }
   .menu ul li{
     text-decoration: underline;
+    visibility: v;
   }
   .showcase-container{
     width: 90%;
@@ -388,14 +398,6 @@ footer{
   .email{
     width: 90%;
   }
-  footer ul{
-    flex-direction: column;
-    align-items: center;
-  }
-  footer ul li a{
-    font-size: xx-large;
-    text-decoration: underline;
-  }
   .box-1{
     flex-direction: column;
     align-items: center;
@@ -410,6 +412,9 @@ footer{
     width: 100%; 
     border-bottom: 1px solid #fff;
     padding: 25px;
+  }
+  img{
+    width: 45px;
   }
   .menu ul{
     flex-direction: column;
@@ -435,14 +440,6 @@ footer{
   }
   .email{
     width: 90%;
-  }
-  footer ul{
-    flex-direction: column;
-    align-items: center;
-  }
-  footer ul li a{
-    font-size: xx-large;
-    text-decoration: underline;
   }
   .box-1{
     flex-direction: column;
@@ -483,14 +480,6 @@ footer{
   }
   .email{
     width: 90%;
-  }
-  footer ul{
-    flex-direction: column;
-    align-items: center;
-  }
-  footer ul li a{
-    font-size: xx-large;
-    text-decoration: underline;
   }
   .box-1{
     flex-direction: column;
