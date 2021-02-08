@@ -3,9 +3,9 @@ import Menu from './Menu';
 import {useState} from 'react'
 
 const Navbar = () => {
-    const [visible,setVisible] = useState('hidden');
+    const [visible,setVisible] = useState('visible');
     const onClick = ()=>{
-        setVisible('visible')
+        setVisible('hidden')
     }
     return (
         <div>
