@@ -10,7 +10,7 @@ const Navbar = () => {
             </ul>
             <button className="hamburger"><i className="fas fa-bars fa-2x"></i></button>
         </nav>
-        <Menu visible={visible}/>
+        <Menu/>
         </div>
     )
 }
