@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom'
 
-const Menu = ({visible}) => {
+const Menu = () => {
   return (
-    <div className="menu" style={{visibility: visible}}>
+    <div className="menu">
         <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/services">Services</Link></li>
