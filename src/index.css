@@ -312,12 +312,6 @@ footer{
     border-bottom: 1px solid #fff;
     padding: 25px;
   }
-  .menu{
-    display: none;
-  }
-  .menu-2{
-    display: flex;
-  }
   img{
     width: 45px;
   }
@@ -353,6 +347,9 @@ footer{
   }
   .col-md-6{
     width: 100%;
+  }
+  .cont-btn{
+    width: 90%;
   }
 }
 @media (min-width:481px) and (max-width: 600px){
@@ -405,6 +402,9 @@ footer{
   .col-md-6{
     width: 100%;
   }
+  .cont-btn{
+    width: 90%;
+  }
 }
 @media (min-width: 601px) and (max-width: 677px){
   .navbar{
@@ -448,6 +448,9 @@ footer{
   .col-md-6{
     width: 100%;
   }
+  .cont-btn{
+    width: 90%;
+  }
 }
 @media (min-width:280px) and (max-width: 320px){
   .navbar{
@@ -487,5 +490,8 @@ footer{
   }
   .col-md-6{
     width: 100%;
+  }
+  .cont-btn{
+    width: 90%;
   }
 }
